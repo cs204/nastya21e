@@ -1,0 +1,63 @@
+body {
+    background-color: #121212; /* Темный фон */
+    color: #e0e0e0;           /* Светлый текст */
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+nav {
+    background-color: #1f1f1f;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #e50914; /* Красная полоска как у Netflix */
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.9em;
+}
+
+nav a:hover {
+    color: #e50914;
+}
+
+main {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+h1 {
+    color: #ffffff;
+    border-left: 5px solid #e50914;
+    padding-left: 15px;
+}
+
+.main-img {
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.movie-card {
+    background: #1f1f1f;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    transition: transform 0.3s;
+}
+
+.movie-card:hover {
+    transform: scale(1.02);
+}
+
+.movie-card h2 {
+    margin-top: 0;
+    color: #e50914;
+}
